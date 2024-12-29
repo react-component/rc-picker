@@ -59,7 +59,7 @@
     "@types/react-dom": "^18.0.8",
     "coveralls": "^3.0.6",
     "cross-env": "^7.0.2",
-    "date-fns": "2.x",
+    "date-fns": "4.x",
     "dayjs": "1.x",
     "dumi": "^2.1.15",
     "eslint": "^8.56.0",
