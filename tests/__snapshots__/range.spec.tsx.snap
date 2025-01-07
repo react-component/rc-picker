@@ -6,7 +6,7 @@ exports[`Picker.Range icon 1`] = `
     class="rc-picker rc-picker-range"
   >
     <div
-      class="rc-picker-input"
+      class="rc-picker-input rc-picker-input-start"
     >
       <input
         aria-invalid="false"
@@ -22,7 +22,7 @@ exports[`Picker.Range icon 1`] = `
       ~
     </div>
     <div
-      class="rc-picker-input"
+      class="rc-picker-input rc-picker-input-end"
     >
       <input
         aria-invalid="false"
@@ -61,7 +61,7 @@ exports[`Picker.Range onPanelChange is array args should render correctly in pla
     class="rc-picker rc-picker-range rc-picker-focused"
   >
     <div
-      class="rc-picker-input rc-picker-input-active"
+      class="rc-picker-input rc-picker-input-active rc-picker-input-start"
     >
       <input
         aria-invalid="false"
@@ -77,7 +77,7 @@ exports[`Picker.Range onPanelChange is array args should render correctly in pla
       ~
     </div>
     <div
-      class="rc-picker-input"
+      class="rc-picker-input rc-picker-input-end"
     >
       <input
         aria-invalid="false"
@@ -101,7 +101,7 @@ exports[`Picker.Range onPanelChange is array args should render correctly in rtl
     class="rc-picker rc-picker-range rc-picker-rtl"
   >
     <div
-      class="rc-picker-input"
+      class="rc-picker-input rc-picker-input-start"
     >
       <input
         aria-invalid="false"
@@ -117,7 +117,7 @@ exports[`Picker.Range onPanelChange is array args should render correctly in rtl
       ~
     </div>
     <div
-      class="rc-picker-input"
+      class="rc-picker-input rc-picker-input-end"
     >
       <input
         aria-invalid="false"
@@ -142,7 +142,7 @@ exports[`Picker.Range panelRender 1`] = `
       class="rc-picker rc-picker-range"
     >
       <div
-        class="rc-picker-input rc-picker-input-active"
+        class="rc-picker-input rc-picker-input-active rc-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -158,7 +158,7 @@ exports[`Picker.Range panelRender 1`] = `
         ~
       </div>
       <div
-        class="rc-picker-input"
+        class="rc-picker-input rc-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -208,7 +208,7 @@ exports[`Picker.Range use dateRender and monthCellRender in date range picker 1`
       class="rc-picker rc-picker-range rc-picker-focused"
     >
       <div
-        class="rc-picker-input rc-picker-input-active"
+        class="rc-picker-input rc-picker-input-active rc-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -224,7 +224,7 @@ exports[`Picker.Range use dateRender and monthCellRender in date range picker 1`
         ~
       </div>
       <div
-        class="rc-picker-input"
+        class="rc-picker-input rc-picker-input-end"
       >
         <input
           aria-invalid="false"
@@ -1265,7 +1265,7 @@ exports[`Picker.Range use dateRender and monthCellRender in month range picker 1
       class="rc-picker rc-picker-range rc-picker-focused"
     >
       <div
-        class="rc-picker-input rc-picker-input-active"
+        class="rc-picker-input rc-picker-input-active rc-picker-input-start"
       >
         <input
           aria-invalid="false"
@@ -1281,7 +1281,7 @@ exports[`Picker.Range use dateRender and monthCellRender in month range picker 1
         ~
       </div>
       <div
-        class="rc-picker-input"
+        class="rc-picker-input rc-picker-input-end"
       >
         <input
           aria-invalid="false"

@@ -186,11 +186,11 @@ function RangeSelector<DateType extends object = any>(
     if (input) {
       const { offsetWidth, offsetLeft, offsetParent } = input.nativeElement;
       const parentWidth = (offsetParent as HTMLElement)?.offsetWidth || 0;
-      const activeOffset = placementRight ? (parentWidth - offsetWidth - offsetLeft) : offsetLeft;
+      const activeOffset = placementRight ? parentWidth - offsetWidth - offsetLeft : offsetLeft;
       setActiveBarStyle(({ insetInlineStart, insetInlineEnd, ...rest }) => ({
         ...rest,
         width: offsetWidth,
-        [offsetUnit]: activeOffset
+        [offsetUnit]: activeOffset,
       }));
       onActiveOffset(activeOffset);
     }
@@ -243,6 +243,7 @@ function RangeSelector<DateType extends object = any>(
         <Input
           ref={inputStartRef}
           {...getInputProps(0)}
+          className={`${prefixCls}-input-start`}
           autoFocus={startAutoFocus}
           tabIndex={tabIndex}
           date-range="start"
@@ -251,6 +252,7 @@ function RangeSelector<DateType extends object = any>(
         <Input
           ref={inputEndRef}
           {...getInputProps(1)}
+          className={`${prefixCls}-input-end`}
           autoFocus={endAutoFocus}
           tabIndex={tabIndex}
           date-range="end"

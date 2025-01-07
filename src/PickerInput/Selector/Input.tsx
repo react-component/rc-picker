@@ -52,6 +52,7 @@ export interface InputProps extends Omit<React.InputHTMLAttributes<HTMLInputElem
 
 const Input = React.forwardRef<InputRef, InputProps>((props, ref) => {
   const {
+    className,
     active,
     showActiveCls = true,
     suffixIcon,
@@ -377,10 +378,14 @@ const Input = React.forwardRef<InputRef, InputProps>((props, ref) => {
   return (
     <div
       ref={holderRef}
-      className={classNames(inputPrefixCls, {
-        [`${inputPrefixCls}-active`]: active && showActiveCls,
-        [`${inputPrefixCls}-placeholder`]: helped,
-      })}
+      className={classNames(
+        inputPrefixCls,
+        {
+          [`${inputPrefixCls}-active`]: active && showActiveCls,
+          [`${inputPrefixCls}-placeholder`]: helped,
+        },
+        className,
+      )}
     >
       <Component
         ref={inputRef}
