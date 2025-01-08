@@ -1804,6 +1804,36 @@ describe('Picker.Range', () => {
           }
         },
       },
+      getBoundingClientRect() {
+        if (this.className.includes('rc-picker-dropdown')) {
+          return {
+            x: 0,
+            y: 0,
+            width: 300,
+          };
+        }
+        if (this.className.includes('rc-picker-range')) {
+          return {
+            x: 0,
+            y: 0,
+            width: 200,
+          };
+        }
+        if (this.className.includes('rc-picker-input')) {
+          return {
+            x: 100,
+            y: 0,
+            width: 100,
+          };
+        }
+        if (this.className.includes('rc-picker')) {
+          return {
+            x: 0,
+            y: 0,
+            width: 200,
+          };
+        }
+      },
     });
     const { container } = render(
       <DayRangePicker

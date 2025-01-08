@@ -9,7 +9,9 @@ export interface PickerContextProps<DateType = any> {
   /** Customize button component */
   button?: Components['button'];
   input?: Components['input'];
-
+  /** trigger will change placement while aligining */
+  alignedPlacement?: string;
+  setAlignedPlacement?: React.Dispatch<React.SetStateAction<string>>;
 }
 
 const PickerContext = React.createContext<PickerContextProps>(null!);

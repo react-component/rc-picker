@@ -54,7 +54,7 @@ export type PickerTriggerProps = {
   placement?: string;
   builtinPlacements?: BuildInPlacements;
   direction?: 'ltr' | 'rtl';
-
+  alignedPlacement?: string;
   // Visible
   visible: boolean;
   onClose: () => void;
@@ -72,15 +72,15 @@ function PickerTrigger({
   placement,
   builtinPlacements = BUILT_IN_PLACEMENTS,
   direction,
-
+  alignedPlacement,
   // Visible
   visible,
   onClose,
 }: PickerTriggerProps) {
-  const { prefixCls } = React.useContext(PickerContext);
+  const { prefixCls, setAlignedPlacement } = React.useContext(PickerContext);
   const dropdownPrefixCls = `${prefixCls}-dropdown`;
 
-  const realPlacement = getRealPlacement(placement, direction === 'rtl');
+  const realPlacement = getRealPlacement(alignedPlacement || placement, direction === 'rtl');
 
   return (
     <Trigger
@@ -100,6 +100,19 @@ function PickerTrigger({
       popupStyle={popupStyle}
       stretch="minWidth"
       getPopupContainer={getPopupContainer}
+      onPopupAlign={(_, align) => {
+        if (!setAlignedPlacement) return;
+
+        const matchedKey = Object.keys(BUILT_IN_PLACEMENTS).find(
+          (key) =>
+            BUILT_IN_PLACEMENTS[key].points[0] === align.points[0] &&
+            BUILT_IN_PLACEMENTS[key].points[1] === align.points[1],
+        );
+
+        if (matchedKey) {
+          setAlignedPlacement(matchedKey);
+        }
+      }}
       onPopupVisibleChange={(nextVisible) => {
         if (!nextVisible) {
           onClose();

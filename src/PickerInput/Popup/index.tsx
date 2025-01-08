@@ -84,7 +84,7 @@ export default function Popup<DateType extends object = any>(props: PopupProps<D
     onSubmit,
   } = props;
 
-  const { prefixCls } = React.useContext(PickerContext);
+  const { prefixCls, alignedPlacement } = React.useContext(PickerContext);
   const panelPrefixCls = `${prefixCls}-panel`;
 
   const rtl = direction === 'rtl';
@@ -213,7 +213,7 @@ export default function Popup<DateType extends object = any>(props: PopupProps<D
   );
 
   if (range) {
-    const realPlacement = getRealPlacement(placement, rtl);
+    const realPlacement = getRealPlacement(alignedPlacement || placement, rtl);
     const offsetUnit = getoffsetUnit(realPlacement, rtl);
     renderNode = (
       <div

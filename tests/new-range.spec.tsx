@@ -2,7 +2,7 @@
 import { act, fireEvent, render } from '@testing-library/react';
 import dayjs, { type Dayjs } from 'dayjs';
 import 'dayjs/locale/ar';
-import { spyElementPrototype } from 'rc-util/lib/test/domHook';
+import { spyElementPrototype, spyElementPrototypes } from 'rc-util/lib/test/domHook';
 import { resetWarned } from 'rc-util/lib/warning';
 import React from 'react';
 import type { RangePickerProps } from '../src';
@@ -25,6 +25,7 @@ jest.mock('rc-util/lib/Dom/isVisible', () => {
 });
 
 describe('NewPicker.Range', () => {
+  let rangeRect = { x: 0, y: 0, width: 0, height: 0 };
   beforeEach(() => {
     resetWarned();
     jest.useFakeTimers().setSystemTime(getDay('1990-09-03 00:00:00').valueOf());
@@ -36,11 +37,98 @@ describe('NewPicker.Range', () => {
         return childList.indexOf(this) * 30;
       },
     });
+
+    // =============== handle trigger align ===============
+    rangeRect = {
+      x: 0,
+      y: 0,
+      width: 200,
+      height: 100,
+    };
+
+    document.documentElement.scrollLeft = 0;
   });
 
   afterEach(() => {
     jest.clearAllTimers();
     jest.useRealTimers();
+  });
+
+  beforeAll(() => {
+    jest.spyOn(document.documentElement, 'scrollWidth', 'get').mockReturnValue(1000);
+
+    // Popup size
+    spyElementPrototypes(HTMLDivElement, {
+      getBoundingClientRect() {
+        if (this.className.includes('rc-picker-dropdown')) {
+          return {
+            x: 0,
+            y: 0,
+            width: 300,
+            height: 100,
+          };
+        }
+        if (this.className.includes('rc-picker-range')) {
+          return rangeRect;
+        }
+        if (this.className.includes('rc-picker')) {
+          return rangeRect;
+        }
+      },
+      offsetWidth: {
+        get() {
+          if (this.className.includes('rc-picker-range-wrapper')) {
+            return rangeRect.width;
+          }
+          if (this.className.includes('rc-picker-range-arrow')) {
+            return 10;
+          }
+          if (this.className.includes('rc-picker-input')) {
+            return 100;
+          }
+          if (this.className.includes('rc-picker-dropdown')) {
+            return 300;
+          }
+        },
+      },
+      offsetLeft: {
+        get() {
+          if (this.className.includes('rc-picker-input')) {
+            return 0;
+          }
+        },
+      },
+    });
+    spyElementPrototypes(HTMLElement, {
+      // Viewport size
+      clientWidth: {
+        get: () => 400,
+      },
+      clientHeight: {
+        get: () => 400,
+      },
+      offsetParent: {
+        get: () => document.body,
+      },
+      offsetWidth: {
+        get() {
+          if (this.tagName === 'BODY') {
+            return 200;
+          }
+        },
+      },
+      // offsetParent
+      getBoundingClientRect() {
+        if (this.tagName === 'BODY') {
+          return {
+            x: 0,
+            y: 0,
+            width: 200,
+            height: 200,
+          };
+        }
+      },
+    });
   });
 
   describe('PickerValue', () => {
@@ -1378,5 +1466,88 @@ describe('NewPicker.Range', () => {
       }
     }
     expect(existed).toBeTruthy();
+  });
+
+  describe('pupop aligned position', () => {
+    it('the arrow should be set to `inset-inline-start` when the popup is aligned to `bottomLeft`.', async () => {
+      render(<DayRangePicker open />);
+
+      const oriGetComputedStyle = window.getComputedStyle;
+      window.getComputedStyle = (ele: HTMLElement) => {
+        const retObj = oriGetComputedStyle(ele);
+
+        retObj.borderRightWidth = '4px';
+        retObj.borderLeftWidth = '2px';
+        return retObj;
+      };
+
+      await act(async () => {
+        jest.runAllTimers();
+
+        await Promise.resolve();
+      });
+
+      expect(document.querySelector('.rc-picker-range-arrow')).toHaveStyle({
+        'inset-inline-start': '0',
+      });
+      expect(document.querySelector('.rc-picker-active-bar')).toHaveStyle({
+        'inset-inline-start': '-2px',
+      });
+      window.getComputedStyle = oriGetComputedStyle;
+    });
+
+    it('the arrow should be set to `inset-inline-end` when the popup is aligned to `bottomRight`.', async () => {
+      const mock = spyElementPrototypes(HTMLDivElement, {
+        getBoundingClientRect() {
+          if (this.className.includes('rc-picker-dropdown')) {
+            return {
+              x: 0,
+              y: 0,
+              width: 300,
+              height: 100,
+            };
+          }
+          if (this.className.includes('rc-picker-range')) {
+            return {
+              ...rangeRect,
+              x: 300,
+            };
+          }
+          if (this.className.includes('rc-picker-input')) {
+            return {
+              ...rangeRect,
+              width: 100,
+            };
+          }
+        },
+      });
+
+      const oriGetComputedStyle = window.getComputedStyle;
+      window.getComputedStyle = (ele: HTMLElement) => {
+        const retObj = oriGetComputedStyle(ele);
+
+        retObj.borderRightWidth = '4px';
+        retObj.borderLeftWidth = '2px';
+        return retObj;
+      };
+
+      render(<DayRangePicker open />);
+
+      await act(async () => {
+        jest.runAllTimers();
+
+        await Promise.resolve();
+      });
+      expect(document.querySelector('.rc-picker-range-arrow')).toHaveStyle({
+        'inset-inline-end': '100px',
+      });
+
+      expect(document.querySelector('.rc-picker-active-bar')).toHaveStyle({
+        'inset-inline-end': '96px',
+      });
+
+      mock.mockRestore();
+      window.getComputedStyle = oriGetComputedStyle;
+    });
   });
 });

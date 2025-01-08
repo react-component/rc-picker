@@ -13,3 +13,7 @@ export function getMaskRange(key: string): [startVal: number, endVal: number, de
 
   return PresetRange[key];
 }
+
+export function getWin(ele: HTMLElement) {
+  return ele.ownerDocument.defaultView;
+}

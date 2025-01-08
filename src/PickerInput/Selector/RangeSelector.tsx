@@ -9,6 +9,7 @@ import useRootProps from './hooks/useRootProps';
 import Icon, { ClearIcon } from './Icon';
 import Input, { type InputRef } from './Input';
 import { getoffsetUnit, getRealPlacement } from '../../utils/uiUtil';
+import { getWin } from './util';
 
 export type SelectorIdType =
   | string
@@ -120,7 +121,7 @@ function RangeSelector<DateType extends object = any>(
   const rtl = direction === 'rtl';
 
   // ======================== Prefix ========================
-  const { prefixCls } = React.useContext(PickerContext);
+  const { prefixCls, alignedPlacement } = React.useContext(PickerContext);
 
   // ========================== Id ==========================
   const ids = React.useMemo(() => {
@@ -173,7 +174,7 @@ function RangeSelector<DateType extends object = any>(
   });
 
   // ====================== ActiveBar =======================
-  const realPlacement = getRealPlacement(placement, rtl);
+  const realPlacement = getRealPlacement(alignedPlacement || placement, rtl);
   const offsetUnit = getoffsetUnit(realPlacement, rtl);
   const placementRight = realPlacement?.toLowerCase().endsWith('right');
   const [activeBarStyle, setActiveBarStyle] = React.useState<React.CSSProperties>({
@@ -184,13 +185,26 @@ function RangeSelector<DateType extends object = any>(
   const syncActiveOffset = useEvent(() => {
     const input = getInput(activeIndex);
     if (input) {
-      const { offsetWidth, offsetLeft, offsetParent } = input.nativeElement;
-      const parentWidth = (offsetParent as HTMLElement)?.offsetWidth || 0;
-      const activeOffset = placementRight ? (parentWidth - offsetWidth - offsetLeft) : offsetLeft;
+      const { offsetParent } = input.nativeElement;
+      // offsetLeft is an integer, which will cause incorrect reulst.
+      const { x = 0, width: inputWidth = 0 } = input.nativeElement.getBoundingClientRect() || {};
+      const { x: pX = 0, width: parentWidth = 0 } = offsetParent?.getBoundingClientRect() || {};
+      const parentStyles =
+        offsetParent && getWin(offsetParent as HTMLElement).getComputedStyle(offsetParent);
+      const parentBorderRightWidth = Number(
+        (placementRight ? parentStyles?.borderRightWidth : parentStyles?.borderLeftWidth)?.replace(
+          'px',
+          '',
+        ) || 0,
+      );
+      const offsetLeft = x - pX;
+
+      const activeOffset = placementRight ? parentWidth - inputWidth - offsetLeft : offsetLeft;
       setActiveBarStyle(({ insetInlineStart, insetInlineEnd, ...rest }) => ({
         ...rest,
-        width: offsetWidth,
-        [offsetUnit]: activeOffset
+        width: inputWidth,
+        // parent will have border while focus, so need to  cut `parentBorderWidth` on opposite side.
+        [offsetUnit]: activeOffset - parentBorderRightWidth,
       }));
       onActiveOffset(activeOffset);
     }
@@ -198,7 +212,7 @@ function RangeSelector<DateType extends object = any>(
 
   React.useEffect(() => {
     syncActiveOffset();
-  }, [activeIndex]);
+  }, [activeIndex, alignedPlacement]);
 
   // ======================== Clear =========================
   const showClear = clearIcon && ((value[0] && !disabled[0]) || (value[1] && !disabled[1]));
