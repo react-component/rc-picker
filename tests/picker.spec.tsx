@@ -1332,6 +1332,59 @@ describe('Picker.Basic', () => {
     });
   });
 
+  describe('empty input should submit when set allowClear true', () => {
+    ['ENTER', 'TAB', 'ESC'].forEach(item => {
+      it(`submit empty through the '${item}' key`, () => {
+        const onChange = jest.fn();
+        const { container } = render(
+          <DayPicker
+            value={getDay('2011-11-11')}
+            onChange={onChange}
+            allowClear={true}
+          />,
+        );
+        const inputEle = container.querySelector('input');
+    
+        fireEvent.change(inputEle, {
+          target: { value: '' },
+        });
+        keyDown(KeyCode.ENTER);
+        expect(onChange).toHaveBeenCalledWith(null, '');
+      });
+    })
+
+    it('submit empty when input blur', async () => {
+      const onChange = jest.fn();
+      const onFocus = jest.fn();
+      const onBlur = jest.fn();
+      const { container } = render(
+        <DayPicker
+          value={getDay('2011-11-11')}
+          onChange={onChange}
+          onFocus={onFocus}
+          onBlur={onBlur}
+          allowClear={true}
+        />,
+      );
+      const inputEle = container.querySelector('input');
+      fireEvent.focus(inputEle);
+      fireEvent.change(inputEle, { target: { value: '' } });
+      fireEvent.blur(inputEle);
+      expect(onBlur).toHaveBeenCalled();
+      /**
+       * wait useLayoutEffect
+       * code: PickerInput/Selector/Input.tsx  
+       * useLockEffect(active, () => {
+       *  // ...
+       * })
+       * 
+       */
+      await waitFakeTimer();
+      expect(onChange).toHaveBeenCalledWith(null, '');
+    });
+
+  })
+
   it('pickerValue change', () => {
     const onPickerValueChange = jest.fn();
     const { container } = render(<DayPicker onPickerValueChange={onPickerValueChange} />);
