@@ -3,6 +3,7 @@ import * as React from 'react';
 import type { PanelMode, SharedPanelProps } from '../../interface';
 import {
   formatValue,
+  getNumberOfWeeksInMonth,
   getWeekStartDate,
   isSameDate,
   isSameMonth,
@@ -49,6 +50,13 @@ export default function DatePanel<DateType extends object = any>(props: DatePane
   const monthStartDate = generateConfig.setDate(pickerValue, 1);
   const baseDate = getWeekStartDate(locale.locale, generateConfig, monthStartDate);
   const month = generateConfig.getMonth(pickerValue);
+
+  const numberOfWeeksInMonth = getNumberOfWeeksInMonth(
+    generateConfig,
+    pickerValue,
+    weekFirstDay,
+    locale.locale,
+  );
 
   // =========================== PrefixColumn ===========================
   const showPrefixColumn = showWeek === undefined ? isWeek : showWeek;
@@ -205,7 +213,7 @@ export default function DatePanel<DateType extends object = any>(props: DatePane
           titleFormat={locale.fieldDateFormat}
           {...props}
           colNum={WEEK_DAY_COUNT}
-          rowNum={6}
+          rowNum={numberOfWeeksInMonth}
           baseDate={baseDate}
           // Header
           headerCells={headerCells}

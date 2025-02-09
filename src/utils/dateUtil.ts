@@ -1,5 +1,6 @@
 import type { GenerateConfig } from '../generate';
 import type { CustomFormat, InternalMode, Locale, NullableDateType } from '../interface';
+import { differenceInCalendarWeeks, lastDayOfMonth, startOfMonth } from 'date-fns';
 
 export const WEEK_DAY_COUNT = 7;
 
@@ -269,4 +270,28 @@ export function fillTime<DateType>(
   });
 
   return tmpDate;
+}
+
+type WeekStartsOnType = 0 | 3 | 1 | 4 | 2 | 5 | 6;
+
+export function getNumberOfWeeksInMonth<DateType>(
+  generateConfig: GenerateConfig<DateType>,
+  date: DateType,
+  weekFirstDay: number,
+  locale: string,
+) {
+  const _date = new Date(
+    generateConfig.getYear(date),
+    generateConfig.getMonth(date),
+    generateConfig.getDate(date),
+  );
+
+  return (
+    differenceInCalendarWeeks(lastDayOfMonth(_date), startOfMonth(_date), {
+      weekStartsOn: weekFirstDay as WeekStartsOnType,
+      locale: {
+        code: locale,
+      },
+    }) + 1
+  );
 }
