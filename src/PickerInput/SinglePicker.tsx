@@ -449,7 +449,9 @@ function Picker<DateType extends object = any>(
     const nextValues = multiple ? toggleDates(getCalendarValue(), date) : [date];
 
     // Only trigger calendar event but not update internal `calendarValue` state
-    triggerCalendarChange(nextValues);
+    if(internalPicker === internalMode) {
+      triggerCalendarChange(nextValues);
+    }
 
     // >>> Trigger next active if !needConfirm
     // Fully logic check `useRangeValue` hook

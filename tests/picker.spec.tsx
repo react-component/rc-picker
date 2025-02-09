@@ -503,6 +503,20 @@ describe('Picker.Basic', () => {
       expect(document.querySelector('.rc-picker-date-panel')).toBeTruthy();
     });
 
+    it('date -> year -> month -> date: Selecting date when panel is different than the picker typ shouldn\'t auto-select dates: date -> year -> month -> date', () => {
+      const { container } = render(<DayPicker />);
+      openPicker(container);
+      fireEvent.click(document.querySelector('.rc-picker-year-btn'));
+      
+      expect(document.querySelector('input').value).toEqual('');
+      selectCell(1990);
+      expect(document.querySelector('input').value).toEqual('');
+      selectCell('Jan');
+      expect(document.querySelector('input').value).toEqual('');
+      selectCell(3);
+      expect(document.querySelector('input').value).toEqual('1990-01-03');
+    });
+
     it('time', () => {
       const onChange = jest.fn();
       const onOk = jest.fn();
