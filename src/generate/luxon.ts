@@ -55,7 +55,7 @@ const normalizeFormat = (format: string): string =>
  */
 const normalizeLocale = (locale: string): string => locale.replace(/_/g, '-');
 
-const generateConfig: GenerateConfig<DateTime> = {
+const getGenerateConfig = (useLocaleWeeks?: boolean): GenerateConfig<DateTime> => ({
   // get
   getNow: () => {
     /**
@@ -93,9 +93,11 @@ const generateConfig: GenerateConfig<DateTime> = {
   isValidate: (date) => date.isValid,
 
   locale: {
-    getWeekFirstDate: (locale, date) => date.setLocale(normalizeLocale(locale)).startOf('week'),
+    getWeekFirstDate: (locale, date) =>
+      date.setLocale(normalizeLocale(locale)).startOf('week', { useLocaleWeeks }),
     getWeekFirstDay: (locale) =>
-      DateTime.local().setLocale(normalizeLocale(locale)).startOf('week').weekday,
+      DateTime.local().setLocale(normalizeLocale(locale)).startOf('week', { useLocaleWeeks })
+        .weekday,
     getWeek: (locale, date) => date.setLocale(normalizeLocale(locale)).weekNumber,
     getShortWeekDays: (locale) => {
       const weekdays = Info.weekdays(weekDayFormatMap[locale] || 'short', {
@@ -134,6 +136,8 @@ const generateConfig: GenerateConfig<DateTime> = {
       return null;
     },
   },
-};
+});
 
+const generateConfig = getGenerateConfig();
+export const generateConfigWithLocale = getGenerateConfig(true);
 export default generateConfig;
