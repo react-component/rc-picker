@@ -27,12 +27,20 @@ https://react-component.github.io/picker/
 
 ## Usage
 
-```js
+The following example uses `Moment.js`, but `rc-picker` also supports `date-fns` and `Day.js`.
+
+```jsx
 import Picker from 'rc-picker';
 import 'rc-picker/assets/index.css';
 import { render } from 'react-dom';
+import enUS from 'rc-picker/lib/locale/en_US';
+import generateConfig from 'rc-picker/lib/generate/moment';
+// For date-fns, use:
+// import generateConfig from 'rc-picker/lib/generate/dateFns';
+// For Day.js, use:
+// import generateConfig from 'rc-picker/lib/generate/dayjs';
 
-render(<Picker />, mountNode);
+render(<Picker generateConfig={generateConfig} locale={locale} />, mountNode);
 ```
 
 ## API
