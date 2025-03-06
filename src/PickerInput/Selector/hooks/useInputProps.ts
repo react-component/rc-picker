@@ -17,6 +17,7 @@ export default function useInputProps<DateType extends object = any>(
     | 'required'
     | 'aria-required'
     | 'onSubmit'
+    | 'onClear'
     | 'onFocus'
     | 'onBlur'
     | 'onInputChange'
@@ -53,6 +54,7 @@ export default function useInputProps<DateType extends object = any>(
     required,
     'aria-required': ariaRequired,
     onSubmit,
+    onClear,
     onFocus,
     onBlur,
     onInputChange,
@@ -172,6 +174,7 @@ export default function useInputProps<DateType extends object = any>(
       },
 
       onSubmit,
+      onClear,
 
       // Get validate text value
       onChange: (text: string) => {

@@ -37,6 +37,7 @@ export interface InputProps extends Omit<React.InputHTMLAttributes<HTMLInputElem
   value?: string;
   onChange: (value: string) => void;
   onSubmit: VoidFunction;
+  onClear: VoidFunction;
   /** Meaning current is from the hover cell getting the placeholder text */
   helped?: boolean;
   /**
@@ -63,6 +64,7 @@ const Input = React.forwardRef<InputRef, InputProps>((props, ref) => {
     helped,
     onHelp,
     onSubmit,
+    onClear,
     onKeyDown,
     preserveInvalidOnBlur = false,
     invalid,
@@ -202,16 +204,28 @@ const Input = React.forwardRef<InputRef, InputProps>((props, ref) => {
   // Check if blur need reset input value
   useLockEffect(active, () => {
     if (!active && !preserveInvalidOnBlur) {
-      setInputValue(value);
+      if (clearIcon && !inputValue) {
+        onClear();
+      } else {
+        setInputValue(value);  
+      }
     }
   });
 
   // ======================= Keyboard =======================
   const onSharedKeyDown: React.KeyboardEventHandler<HTMLInputElement> = (event) => {
-    if (event.key === 'Enter' && validateFormat(inputValue)) {
-      onSubmit();
+    const isEnterKeyTriggered = event.key === 'Enter';
+    if (isEnterKeyTriggered) {
+      if (validateFormat(inputValue)) {
+        onSubmit();
+      }
     }
 
+    if (isEnterKeyTriggered || event.key === 'Escape') {
+      if (clearIcon && !inputValue) {
+        onClear();
+      }
+    }
     onKeyDown?.(event);
   };
 

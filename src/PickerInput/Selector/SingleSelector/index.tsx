@@ -162,6 +162,7 @@ function SingleSelector<DateType extends object = any>(
   const showClear = !!(clearIcon && value.length && !disabled);
 
   // ======================= Multiple =======================
+  const clearIconNode = showClear && <ClearIcon icon={clearIcon} onClear={onClear} />;
   const selectorNode = multiple ? (
     <>
       <MultipleDates
@@ -183,7 +184,7 @@ function SingleSelector<DateType extends object = any>(
         tabIndex={tabIndex}
       />
       <Icon type="suffix" icon={suffixIcon} />
-      {showClear && <ClearIcon icon={clearIcon} onClear={onClear} />}
+      {clearIconNode}
     </>
   ) : (
     <Input
@@ -192,7 +193,7 @@ function SingleSelector<DateType extends object = any>(
       autoFocus={autoFocus}
       tabIndex={tabIndex}
       suffixIcon={suffixIcon}
-      clearIcon={showClear && <ClearIcon icon={clearIcon} onClear={onClear} />}
+      clearIcon={clearIconNode}
       showActiveCls={false}
     />
   );
