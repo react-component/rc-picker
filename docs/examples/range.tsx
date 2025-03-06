@@ -202,6 +202,20 @@ export default () => {
             disabledDate={disabledDate}
           />
         </div>
+        <div style={{ margin: '0 8px' }}>
+          <h3>Limit Date</h3>
+          <RangePicker<Moment>
+            generateConfig={momentGenerateConfig}
+            locale={zhCN}
+            defaultValue={[moment('2021-06-01'), moment('2021-06-02')]}
+            disabledDate={(current, { from }) => {
+              if (from) {
+                return Math.abs(current.diff(from, 'days')) >= 2;
+              }
+              return false;
+            }}
+          />
+        </div>
       </div>
     </div>
   );
