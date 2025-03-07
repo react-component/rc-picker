@@ -19,10 +19,6 @@ const locale: Locale = {
   yearSelect: 'ಒಂದು ವರ್ಷ ಆರಿಸಿ',
   decadeSelect: 'ಒಂದು ದಶಕದ ಆಯ್ಕೆಮಾಡಿ',
 
-  dateFormat: 'M/D/YYYY',
-
-  dateTimeFormat: 'M/D/YYYY HH:mm:ss',
-
   previousMonth: 'ಹಿಂದಿನ ತಿಂಗಳು (ಪೇಜ್ಅಪ್)',
   nextMonth: 'ಮುಂದಿನ ತಿಂಗಳು (ಪೇಜ್ಡೌನ್)',
   previousYear: 'ಕಳೆದ ವರ್ಷ (Ctrl + ಎಡ)',

@@ -23,8 +23,6 @@ const locale: Locale = {
   decadeSelect: '選擇年代',
   yearFormat: 'YYYY年',
 
-  dateFormat: 'YYYY年M月D日',
-  dateTimeFormat: 'YYYY年M月D日 HH時mm分ss秒',
   previousYear: '上一年 (Control鍵加左方向鍵)',
   nextYear: '下一年 (Control鍵加右方向鍵)',
   previousDecade: '上一年代',

@@ -17,8 +17,6 @@ const locale: Locale = {
   monthSelect: 'Escollir un mes',
   yearSelect: 'Escollir un any',
   decadeSelect: 'Escollir una dècada',
-  dateFormat: 'D/M/YYYY',
-  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
   previousMonth: 'Mes anterior (PageUp)',
   nextMonth: 'Mes següent (PageDown)',
   previousYear: 'Any anterior (Control + left)',

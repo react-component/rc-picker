@@ -18,10 +18,6 @@ const locale: Locale = {
   yearSelect: 'Vælg år',
   decadeSelect: 'Vælg årti',
 
-  dateFormat: 'D/M/YYYY',
-
-  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
-
   previousMonth: 'Forrige måned (Page Up)',
   nextMonth: 'Næste måned (Page Down)',
   previousYear: 'Forrige år (Ctrl-venstre pil)',

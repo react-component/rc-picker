@@ -18,10 +18,6 @@ const locale: Locale = {
   yearSelect: 'Izvēlieties gadu',
   decadeSelect: 'Izvēlieties desmit gadus',
 
-  dateFormat: 'D.M.YYYY',
-
-  dateTimeFormat: 'D.M.YYYY HH:mm:ss',
-
   previousMonth: 'Iepriekšējais mēnesis (PageUp)',
   nextMonth: 'Nākammēnes (PageDown)',
   previousYear: 'Pagājušais gads (Control + left)',

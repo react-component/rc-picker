@@ -18,10 +18,6 @@ const locale: Locale = {
   yearSelect: 'เลือกปี',
   decadeSelect: 'เลือกทศวรรษ',
 
-  dateFormat: 'D/M/YYYY',
-
-  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
-
   previousMonth: 'เดือนก่อนหน้า (PageUp)',
   nextMonth: 'เดือนถัดไป (PageDown)',
   previousYear: 'ปีก่อนหน้า (Control + left)',

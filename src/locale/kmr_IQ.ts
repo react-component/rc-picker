@@ -18,10 +18,6 @@ const locale: Locale = {
   yearSelect: 'Sal hilbijêre',
   decadeSelect: 'Dehsal hilbijêre',
 
-  dateFormat: 'D/M/YYYY',
-
-  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
-
   previousMonth: 'Meha peş (PageUp))',
   nextMonth: 'Meha paş (PageDown)',
   previousYear: 'Sala peş (Control + şep)',

@@ -18,8 +18,6 @@ const locale: Locale = {
   monthSelect: 'Ay seç',
   yearSelect: 'il seç',
   decadeSelect: 'Onillik seçin',
-  dateFormat: 'D.M.YYYY',
-  dateTimeFormat: 'D.M.YYYY HH:mm:ss',
   previousMonth: 'Əvvəlki ay (PageUp)',
   nextMonth: 'Növbəti ay (PageDown)',
   previousYear: 'Sonuncu il (Control + left)',

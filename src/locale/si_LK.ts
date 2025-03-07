@@ -19,9 +19,6 @@ const locale: Locale = {
   yearSelect: 'අවුරුද්දක් තෝරන්න',
   decadeSelect: 'දශකයක් තෝරන්න',
 
-  dateFormat: 'YYYY/M/D',
-
-  dateTimeFormat: 'YYYY/M/D HH:mm:ss',
   monthBeforeYear: false,
   previousMonth: 'කලින් මාසය (පිටුව ඉහළට)',
   nextMonth: 'ඊළඟ මාසය (පිටුව පහළට)',

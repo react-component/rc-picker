@@ -18,10 +18,6 @@ const locale: Locale = {
   yearSelect: 'Selecionar ano',
   decadeSelect: 'Selecionar década',
 
-  dateFormat: 'D/M/YYYY',
-
-  dateTimeFormat: 'D/M/YYYY HH:mm:ss',
-
   previousMonth: 'Mês anterior (PageUp)',
   nextMonth: 'Mês seguinte (PageDown)',
   previousYear: 'Ano anterior (Control + left)',

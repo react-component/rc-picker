@@ -18,10 +18,6 @@ const locale: Locale = {
   yearSelect: 'Vyberte rok',
   decadeSelect: 'Vyberte dekádu',
 
-  dateFormat: 'D.M.YYYY',
-
-  dateTimeFormat: 'D.M.YYYY HH:mm:ss',
-
   previousMonth: 'Předchozí měsíc (PageUp)',
   nextMonth: 'Následující (PageDown)',
   previousYear: 'Předchozí rok (Control + left)',
