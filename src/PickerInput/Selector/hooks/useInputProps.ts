@@ -123,7 +123,7 @@ export default function useInputProps<DateType extends object = any>(
   // ======================== Input =========================
   const getInputProps = (index?: number): InputProps => {
     function getProp<T>(propValue: T | T[]): T {
-      return index !== undefined ? propValue[index] : propValue;
+      return index !== undefined ? propValue[index] : (propValue as T);
     }
 
     const pickedAttrs = pickAttrs(props, { aria: true, data: true });
