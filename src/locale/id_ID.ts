@@ -19,7 +19,7 @@ const locale: Locale = {
   yearSelect: 'Pilih satu tahun',
   decadeSelect: 'Pilih satu dekade',
 
-  dateFormat: 'D/M/YYYY',
+  fieldDateFormat: 'D/M/YYYY',
 
   dateTimeFormat: 'D/M/YYYY HH:mm:ss',
 

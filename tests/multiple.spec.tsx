@@ -39,7 +39,7 @@ describe('Picker.Multiple', () => {
     selectCell(1);
     expect(onCalendarChange).toHaveBeenCalledWith(
       expect.anything(),
-      ['1990-09-01', '1990-09-03'],
+      ['9/1/1990', '9/3/1990'],
       expect.anything(),
     );
 
@@ -50,11 +50,7 @@ describe('Picker.Multiple', () => {
 
     // Confirm
     fireEvent.click(document.querySelector('.rc-picker-ok button'));
-    expect(onChange).toHaveBeenCalledWith(expect.anything(), [
-      '1990-09-01',
-      '1990-09-03',
-      '1990-09-05',
-    ]);
+    expect(onChange).toHaveBeenCalledWith(expect.anything(), ['9/1/1990', '9/3/1990', '9/5/1990']);
 
     expect(onChange.mock.calls[0][0]).toHaveLength(3);
   });
@@ -71,7 +67,7 @@ describe('Picker.Multiple', () => {
 
     // Confirm
     fireEvent.click(document.querySelector('.rc-picker-ok button'));
-    expect(onChange).toHaveBeenCalledWith(expect.anything(), ['1990-09-01', '1990-09-05']);
+    expect(onChange).toHaveBeenCalledWith(expect.anything(), ['9/1/1990', '9/5/1990']);
   });
 
   it('selector remove', () => {
@@ -88,7 +84,7 @@ describe('Picker.Multiple', () => {
     const removeEle = container.querySelector('.rc-picker-selection-item-remove');
     fireEvent.mouseDown(removeEle);
     fireEvent.click(removeEle);
-    expect(onChange).toHaveBeenCalledWith(expect.anything(), ['2000-01-28']);
+    expect(onChange).toHaveBeenCalledWith(expect.anything(), ['1/28/2000']);
   });
 
   it('open to remove selector should not trigger onChange', () => {
@@ -111,7 +107,7 @@ describe('Picker.Multiple', () => {
 
     // Confirm
     fireEvent.click(document.querySelector('.rc-picker-ok button'));
-    expect(onChange).toHaveBeenCalledWith(expect.anything(), ['2000-01-28']);
+    expect(onChange).toHaveBeenCalledWith(expect.anything(), ['1/28/2000']);
   });
 
   it('hide clearIcon', () => {
@@ -183,12 +179,12 @@ describe('Picker.Multiple', () => {
     expect(onChange).not.toHaveBeenCalled();
     expect(onCalendarChange).toHaveBeenCalledWith(
       expect.anything(),
-      ['1998-10-23'],
+      ['10/23/1998'],
       expect.anything(),
     );
 
     // Confirm
     fireEvent.click(document.querySelector('.rc-picker-ok button'));
-    expect(onChange).toHaveBeenCalledWith(expect.anything(), ['1998-10-23']);
+    expect(onChange).toHaveBeenCalledWith(expect.anything(), ['10/23/1998']);
   });
 });

@@ -18,8 +18,8 @@ const locale: Locale = {
   yearSelect: 'Choisissez une année',
   decadeSelect: 'Choisissez une décennie',
 
-  dateFormat: 'DD/MM/YYYY',
-  dayFormat: 'DD',
+  fieldDateFormat: 'DD/MM/YYYY',
+  cellDateFormat: 'DD',
   dateTimeFormat: 'DD/MM/YYYY HH:mm:ss',
 
   previousMonth: 'Mois précédent (PageUp)',

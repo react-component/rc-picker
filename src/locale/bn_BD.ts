@@ -18,7 +18,7 @@ const locale: Locale = {
   monthSelect: 'মাস পছন্দ করুন',
   yearSelect: 'বছর পছন্দ করুন',
   decadeSelect: 'একটি দশক পছন্দ করুন',
-  dateFormat: 'M/D/YYYY',
+  fieldDateFormat: 'M/D/YYYY',
   dateTimeFormat: 'D/M/YYYY HH:mm:ss',
   previousMonth: 'গত মাস (PageUp)',
   nextMonth: 'আগামী মাস (PageDown)',

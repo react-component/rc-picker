@@ -1296,7 +1296,7 @@ describe('NewPicker.Range', () => {
       // Out of range
       fireEvent.change(inputEle, {
         target: {
-          value: '2000-01-01',
+          value: '1/1/2000',
         },
       });
       fireEvent.keyDown(inputEle, {
@@ -1307,7 +1307,7 @@ describe('NewPicker.Range', () => {
       // In range
       fireEvent.change(inputEle, {
         target: {
-          value: '2024-03-03',
+          value: '3/3/2024',
         },
       });
       fireEvent.keyDown(inputEle, {

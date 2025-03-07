@@ -100,7 +100,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell"
-                title="1990-08-26"
+                title="8/26/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -114,7 +114,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-27"
+                title="8/27/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -128,7 +128,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-28"
+                title="8/28/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -142,7 +142,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-29"
+                title="8/29/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -156,7 +156,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-30"
+                title="8/30/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -170,7 +170,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-31"
+                title="8/31/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -184,7 +184,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-01"
+                title="9/1/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -200,7 +200,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-02"
+                title="9/2/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -214,7 +214,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view rc-picker-cell-today"
-                title="1990-09-03"
+                title="9/3/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -228,7 +228,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-04"
+                title="9/4/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -242,7 +242,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-05"
+                title="9/5/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -256,7 +256,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-06"
+                title="9/6/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -270,7 +270,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-07"
+                title="9/7/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -284,7 +284,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-08"
+                title="9/8/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -300,7 +300,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-09"
+                title="9/9/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -314,7 +314,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-10"
+                title="9/10/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -328,7 +328,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-11"
+                title="9/11/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -342,7 +342,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-12"
+                title="9/12/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -356,7 +356,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-13"
+                title="9/13/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -370,7 +370,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-14"
+                title="9/14/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -384,7 +384,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-15"
+                title="9/15/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -400,7 +400,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-16"
+                title="9/16/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -414,7 +414,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-17"
+                title="9/17/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -428,7 +428,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-18"
+                title="9/18/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -442,7 +442,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-19"
+                title="9/19/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -456,7 +456,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-20"
+                title="9/20/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -470,7 +470,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-21"
+                title="9/21/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -484,7 +484,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-22"
+                title="9/22/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -500,7 +500,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-23"
+                title="9/23/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -514,7 +514,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-24"
+                title="9/24/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -528,7 +528,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-25"
+                title="9/25/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -542,7 +542,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-26"
+                title="9/26/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -556,7 +556,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-27"
+                title="9/27/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -570,7 +570,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-28"
+                title="9/28/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -584,7 +584,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-29"
+                title="9/29/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -600,7 +600,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-30"
+                title="9/30/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -614,7 +614,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-01"
+                title="10/1/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -628,7 +628,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-02"
+                title="10/2/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -642,7 +642,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-03"
+                title="10/3/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -656,7 +656,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-04"
+                title="10/4/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -670,7 +670,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-05"
+                title="10/5/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -684,7 +684,7 @@ exports[`Picker.Panel append cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-06"
+                title="10/6/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3440,7 +3440,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-26"
+                title="8/26/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3454,7 +3454,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-27"
+                title="8/27/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3468,7 +3468,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-28"
+                title="8/28/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3482,7 +3482,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-29"
+                title="8/29/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3496,7 +3496,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-30"
+                title="8/30/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3510,7 +3510,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-31"
+                title="8/31/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3524,7 +3524,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-01"
+                title="9/1/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3551,7 +3551,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-02"
+                title="9/2/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3565,7 +3565,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view rc-picker-cell-today"
-                title="1990-09-03"
+                title="9/3/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3579,7 +3579,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-04"
+                title="9/4/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3593,7 +3593,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-05"
+                title="9/5/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3607,7 +3607,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-06"
+                title="9/6/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3621,7 +3621,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-07"
+                title="9/7/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3635,7 +3635,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-08"
+                title="9/8/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3662,7 +3662,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-09"
+                title="9/9/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3676,7 +3676,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-10"
+                title="9/10/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3690,7 +3690,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-11"
+                title="9/11/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3704,7 +3704,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-12"
+                title="9/12/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3718,7 +3718,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-13"
+                title="9/13/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3732,7 +3732,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-14"
+                title="9/14/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3746,7 +3746,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-15"
+                title="9/15/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3773,7 +3773,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-16"
+                title="9/16/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3787,7 +3787,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-17"
+                title="9/17/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3801,7 +3801,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-18"
+                title="9/18/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3815,7 +3815,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-19"
+                title="9/19/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3829,7 +3829,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-20"
+                title="9/20/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3843,7 +3843,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-21"
+                title="9/21/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3857,7 +3857,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-22"
+                title="9/22/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3884,7 +3884,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-23"
+                title="9/23/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3898,7 +3898,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-24"
+                title="9/24/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3912,7 +3912,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-25"
+                title="9/25/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3926,7 +3926,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-26"
+                title="9/26/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3940,7 +3940,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-27"
+                title="9/27/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3954,7 +3954,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-28"
+                title="9/28/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3968,7 +3968,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-29"
+                title="9/29/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -3995,7 +3995,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-30"
+                title="9/30/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -4009,7 +4009,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-01"
+                title="10/1/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -4023,7 +4023,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-02"
+                title="10/2/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -4037,7 +4037,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-03"
+                title="10/3/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -4051,7 +4051,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-04"
+                title="10/4/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -4065,7 +4065,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-05"
+                title="10/5/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -4079,7 +4079,7 @@ exports[`Picker.Panel append cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-06"
+                title="10/6/1990"
               >
                 <div
                   class="rc-picker-cell-inner customInner"
@@ -4519,7 +4519,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell"
-                title="1990-08-26"
+                title="8/26/1990"
               >
                 <div
                   class="customWrapper"
@@ -4529,7 +4529,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-27"
+                title="8/27/1990"
               >
                 <div
                   class="customWrapper"
@@ -4539,7 +4539,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-28"
+                title="8/28/1990"
               >
                 <div
                   class="customWrapper"
@@ -4549,7 +4549,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-29"
+                title="8/29/1990"
               >
                 <div
                   class="customWrapper"
@@ -4559,7 +4559,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-30"
+                title="8/30/1990"
               >
                 <div
                   class="customWrapper"
@@ -4569,7 +4569,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-31"
+                title="8/31/1990"
               >
                 <div
                   class="customWrapper"
@@ -4579,7 +4579,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-01"
+                title="9/1/1990"
               >
                 <div
                   class="customWrapper"
@@ -4591,7 +4591,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-02"
+                title="9/2/1990"
               >
                 <div
                   class="customWrapper"
@@ -4601,7 +4601,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view rc-picker-cell-today"
-                title="1990-09-03"
+                title="9/3/1990"
               >
                 <div
                   class="customWrapper"
@@ -4611,7 +4611,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-04"
+                title="9/4/1990"
               >
                 <div
                   class="customWrapper"
@@ -4621,7 +4621,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-05"
+                title="9/5/1990"
               >
                 <div
                   class="customWrapper"
@@ -4631,7 +4631,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-06"
+                title="9/6/1990"
               >
                 <div
                   class="customWrapper"
@@ -4641,7 +4641,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-07"
+                title="9/7/1990"
               >
                 <div
                   class="customWrapper"
@@ -4651,7 +4651,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-08"
+                title="9/8/1990"
               >
                 <div
                   class="customWrapper"
@@ -4663,7 +4663,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-09"
+                title="9/9/1990"
               >
                 <div
                   class="customWrapper"
@@ -4673,7 +4673,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-10"
+                title="9/10/1990"
               >
                 <div
                   class="customWrapper"
@@ -4683,7 +4683,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-11"
+                title="9/11/1990"
               >
                 <div
                   class="customWrapper"
@@ -4693,7 +4693,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-12"
+                title="9/12/1990"
               >
                 <div
                   class="customWrapper"
@@ -4703,7 +4703,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-13"
+                title="9/13/1990"
               >
                 <div
                   class="customWrapper"
@@ -4713,7 +4713,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-14"
+                title="9/14/1990"
               >
                 <div
                   class="customWrapper"
@@ -4723,7 +4723,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-15"
+                title="9/15/1990"
               >
                 <div
                   class="customWrapper"
@@ -4735,7 +4735,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-16"
+                title="9/16/1990"
               >
                 <div
                   class="customWrapper"
@@ -4745,7 +4745,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-17"
+                title="9/17/1990"
               >
                 <div
                   class="customWrapper"
@@ -4755,7 +4755,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-18"
+                title="9/18/1990"
               >
                 <div
                   class="customWrapper"
@@ -4765,7 +4765,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-19"
+                title="9/19/1990"
               >
                 <div
                   class="customWrapper"
@@ -4775,7 +4775,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-20"
+                title="9/20/1990"
               >
                 <div
                   class="customWrapper"
@@ -4785,7 +4785,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-21"
+                title="9/21/1990"
               >
                 <div
                   class="customWrapper"
@@ -4795,7 +4795,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-22"
+                title="9/22/1990"
               >
                 <div
                   class="customWrapper"
@@ -4807,7 +4807,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-23"
+                title="9/23/1990"
               >
                 <div
                   class="customWrapper"
@@ -4817,7 +4817,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-24"
+                title="9/24/1990"
               >
                 <div
                   class="customWrapper"
@@ -4827,7 +4827,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-25"
+                title="9/25/1990"
               >
                 <div
                   class="customWrapper"
@@ -4837,7 +4837,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-26"
+                title="9/26/1990"
               >
                 <div
                   class="customWrapper"
@@ -4847,7 +4847,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-27"
+                title="9/27/1990"
               >
                 <div
                   class="customWrapper"
@@ -4857,7 +4857,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-28"
+                title="9/28/1990"
               >
                 <div
                   class="customWrapper"
@@ -4867,7 +4867,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-29"
+                title="9/29/1990"
               >
                 <div
                   class="customWrapper"
@@ -4879,7 +4879,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-30"
+                title="9/30/1990"
               >
                 <div
                   class="customWrapper"
@@ -4889,7 +4889,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-01"
+                title="10/1/1990"
               >
                 <div
                   class="customWrapper"
@@ -4899,7 +4899,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-02"
+                title="10/2/1990"
               >
                 <div
                   class="customWrapper"
@@ -4909,7 +4909,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-03"
+                title="10/3/1990"
               >
                 <div
                   class="customWrapper"
@@ -4919,7 +4919,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-04"
+                title="10/4/1990"
               >
                 <div
                   class="customWrapper"
@@ -4929,7 +4929,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-05"
+                title="10/5/1990"
               >
                 <div
                   class="customWrapper"
@@ -4939,7 +4939,7 @@ exports[`Picker.Panel override cell with cellRender in date 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-06"
+                title="10/6/1990"
               >
                 <div
                   class="customWrapper"
@@ -7003,7 +7003,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-26"
+                title="8/26/1990"
               >
                 <div
                   class="customWrapper"
@@ -7013,7 +7013,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-27"
+                title="8/27/1990"
               >
                 <div
                   class="customWrapper"
@@ -7023,7 +7023,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-28"
+                title="8/28/1990"
               >
                 <div
                   class="customWrapper"
@@ -7033,7 +7033,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-29"
+                title="8/29/1990"
               >
                 <div
                   class="customWrapper"
@@ -7043,7 +7043,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-30"
+                title="8/30/1990"
               >
                 <div
                   class="customWrapper"
@@ -7053,7 +7053,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-31"
+                title="8/31/1990"
               >
                 <div
                   class="customWrapper"
@@ -7063,7 +7063,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-01"
+                title="9/1/1990"
               >
                 <div
                   class="customWrapper"
@@ -7086,7 +7086,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-02"
+                title="9/2/1990"
               >
                 <div
                   class="customWrapper"
@@ -7096,7 +7096,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view rc-picker-cell-today"
-                title="1990-09-03"
+                title="9/3/1990"
               >
                 <div
                   class="customWrapper"
@@ -7106,7 +7106,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-04"
+                title="9/4/1990"
               >
                 <div
                   class="customWrapper"
@@ -7116,7 +7116,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-05"
+                title="9/5/1990"
               >
                 <div
                   class="customWrapper"
@@ -7126,7 +7126,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-06"
+                title="9/6/1990"
               >
                 <div
                   class="customWrapper"
@@ -7136,7 +7136,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-07"
+                title="9/7/1990"
               >
                 <div
                   class="customWrapper"
@@ -7146,7 +7146,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-08"
+                title="9/8/1990"
               >
                 <div
                   class="customWrapper"
@@ -7169,7 +7169,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-09"
+                title="9/9/1990"
               >
                 <div
                   class="customWrapper"
@@ -7179,7 +7179,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-10"
+                title="9/10/1990"
               >
                 <div
                   class="customWrapper"
@@ -7189,7 +7189,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-11"
+                title="9/11/1990"
               >
                 <div
                   class="customWrapper"
@@ -7199,7 +7199,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-12"
+                title="9/12/1990"
               >
                 <div
                   class="customWrapper"
@@ -7209,7 +7209,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-13"
+                title="9/13/1990"
               >
                 <div
                   class="customWrapper"
@@ -7219,7 +7219,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-14"
+                title="9/14/1990"
               >
                 <div
                   class="customWrapper"
@@ -7229,7 +7229,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-15"
+                title="9/15/1990"
               >
                 <div
                   class="customWrapper"
@@ -7252,7 +7252,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-16"
+                title="9/16/1990"
               >
                 <div
                   class="customWrapper"
@@ -7262,7 +7262,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-17"
+                title="9/17/1990"
               >
                 <div
                   class="customWrapper"
@@ -7272,7 +7272,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-18"
+                title="9/18/1990"
               >
                 <div
                   class="customWrapper"
@@ -7282,7 +7282,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-19"
+                title="9/19/1990"
               >
                 <div
                   class="customWrapper"
@@ -7292,7 +7292,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-20"
+                title="9/20/1990"
               >
                 <div
                   class="customWrapper"
@@ -7302,7 +7302,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-21"
+                title="9/21/1990"
               >
                 <div
                   class="customWrapper"
@@ -7312,7 +7312,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-22"
+                title="9/22/1990"
               >
                 <div
                   class="customWrapper"
@@ -7335,7 +7335,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-23"
+                title="9/23/1990"
               >
                 <div
                   class="customWrapper"
@@ -7345,7 +7345,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-24"
+                title="9/24/1990"
               >
                 <div
                   class="customWrapper"
@@ -7355,7 +7355,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-25"
+                title="9/25/1990"
               >
                 <div
                   class="customWrapper"
@@ -7365,7 +7365,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-26"
+                title="9/26/1990"
               >
                 <div
                   class="customWrapper"
@@ -7375,7 +7375,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-27"
+                title="9/27/1990"
               >
                 <div
                   class="customWrapper"
@@ -7385,7 +7385,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-28"
+                title="9/28/1990"
               >
                 <div
                   class="customWrapper"
@@ -7395,7 +7395,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-29"
+                title="9/29/1990"
               >
                 <div
                   class="customWrapper"
@@ -7418,7 +7418,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-30"
+                title="9/30/1990"
               >
                 <div
                   class="customWrapper"
@@ -7428,7 +7428,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-01"
+                title="10/1/1990"
               >
                 <div
                   class="customWrapper"
@@ -7438,7 +7438,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-02"
+                title="10/2/1990"
               >
                 <div
                   class="customWrapper"
@@ -7448,7 +7448,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-03"
+                title="10/3/1990"
               >
                 <div
                   class="customWrapper"
@@ -7458,7 +7458,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-04"
+                title="10/4/1990"
               >
                 <div
                   class="customWrapper"
@@ -7468,7 +7468,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-05"
+                title="10/5/1990"
               >
                 <div
                   class="customWrapper"
@@ -7478,7 +7478,7 @@ exports[`Picker.Panel override cell with cellRender in week 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-06"
+                title="10/6/1990"
               >
                 <div
                   class="customWrapper"
@@ -7784,7 +7784,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
               <tr>
                 <td
                   class="rc-picker-cell"
-                  title="1990-08-26"
+                  title="8/26/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7794,7 +7794,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell"
-                  title="1990-08-27"
+                  title="8/27/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7804,7 +7804,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell"
-                  title="1990-08-28"
+                  title="8/28/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7814,7 +7814,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell"
-                  title="1990-08-29"
+                  title="8/29/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7824,7 +7824,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell"
-                  title="1990-08-30"
+                  title="8/30/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7834,7 +7834,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell"
-                  title="1990-08-31"
+                  title="8/31/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7844,7 +7844,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-01"
+                  title="9/1/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7856,7 +7856,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
               <tr>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-02"
+                  title="9/2/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7866,7 +7866,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view rc-picker-cell-today"
-                  title="1990-09-03"
+                  title="9/3/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7876,7 +7876,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-04"
+                  title="9/4/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7886,7 +7886,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-05"
+                  title="9/5/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7896,7 +7896,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-06"
+                  title="9/6/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7906,7 +7906,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-07"
+                  title="9/7/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7916,7 +7916,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-08"
+                  title="9/8/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7928,7 +7928,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
               <tr>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-09"
+                  title="9/9/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7938,7 +7938,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-10"
+                  title="9/10/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7948,7 +7948,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-11"
+                  title="9/11/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7958,7 +7958,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-12"
+                  title="9/12/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7968,7 +7968,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-13"
+                  title="9/13/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7978,7 +7978,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-14"
+                  title="9/14/1990"
                 >
                   <div
                     class="customWrapper"
@@ -7988,7 +7988,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-15"
+                  title="9/15/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8000,7 +8000,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
               <tr>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-16"
+                  title="9/16/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8010,7 +8010,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-17"
+                  title="9/17/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8020,7 +8020,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-18"
+                  title="9/18/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8030,7 +8030,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-19"
+                  title="9/19/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8040,7 +8040,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-20"
+                  title="9/20/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8050,7 +8050,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-21"
+                  title="9/21/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8060,7 +8060,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-22"
+                  title="9/22/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8072,7 +8072,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
               <tr>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-23"
+                  title="9/23/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8082,7 +8082,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-24"
+                  title="9/24/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8092,7 +8092,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-25"
+                  title="9/25/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8102,7 +8102,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-26"
+                  title="9/26/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8112,7 +8112,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-27"
+                  title="9/27/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8122,7 +8122,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-28"
+                  title="9/28/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8132,7 +8132,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-29"
+                  title="9/29/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8144,7 +8144,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
               <tr>
                 <td
                   class="rc-picker-cell rc-picker-cell-in-view"
-                  title="1990-09-30"
+                  title="9/30/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8154,7 +8154,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell"
-                  title="1990-10-01"
+                  title="10/1/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8164,7 +8164,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell"
-                  title="1990-10-02"
+                  title="10/2/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8174,7 +8174,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell"
-                  title="1990-10-03"
+                  title="10/3/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8184,7 +8184,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell"
-                  title="1990-10-04"
+                  title="10/4/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8194,7 +8194,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell"
-                  title="1990-10-05"
+                  title="10/5/1990"
                 >
                   <div
                     class="customWrapper"
@@ -8204,7 +8204,7 @@ exports[`Picker.Panel override cell with cellRender when pass showTime 1`] = `
                 </td>
                 <td
                   class="rc-picker-cell"
-                  title="1990-10-06"
+                  title="10/6/1990"
                 >
                   <div
                     class="customWrapper"
@@ -9927,7 +9927,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
             <tr>
               <td
                 class="rc-picker-cell"
-                title="1990-08-26"
+                title="8/26/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -9937,7 +9937,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-27"
+                title="8/27/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -9947,7 +9947,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-28"
+                title="8/28/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -9957,7 +9957,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-29"
+                title="8/29/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -9967,7 +9967,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-30"
+                title="8/30/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -9977,7 +9977,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-08-31"
+                title="8/31/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -9987,7 +9987,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-01"
+                title="9/1/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -9999,7 +9999,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-02"
+                title="9/2/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10009,7 +10009,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view rc-picker-cell-today"
-                title="1990-09-03"
+                title="9/3/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10019,7 +10019,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-04"
+                title="9/4/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10029,7 +10029,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-05"
+                title="9/5/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10039,7 +10039,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-06"
+                title="9/6/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10049,7 +10049,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-07"
+                title="9/7/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10059,7 +10059,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-08"
+                title="9/8/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10071,7 +10071,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-09"
+                title="9/9/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10081,7 +10081,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-10"
+                title="9/10/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10091,7 +10091,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-11"
+                title="9/11/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10101,7 +10101,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-12"
+                title="9/12/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10111,7 +10111,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-13"
+                title="9/13/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10121,7 +10121,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-14"
+                title="9/14/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10131,7 +10131,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-15"
+                title="9/15/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10143,7 +10143,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-16"
+                title="9/16/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10153,7 +10153,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-17"
+                title="9/17/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10163,7 +10163,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-18"
+                title="9/18/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10173,7 +10173,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-19"
+                title="9/19/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10183,7 +10183,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-20"
+                title="9/20/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10193,7 +10193,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-21"
+                title="9/21/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10203,7 +10203,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-22"
+                title="9/22/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10215,7 +10215,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-23"
+                title="9/23/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10225,7 +10225,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-24"
+                title="9/24/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10235,7 +10235,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-25"
+                title="9/25/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10245,7 +10245,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-26"
+                title="9/26/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10255,7 +10255,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-27"
+                title="9/27/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10265,7 +10265,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-28"
+                title="9/28/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10275,7 +10275,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-29"
+                title="9/29/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10287,7 +10287,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
             <tr>
               <td
                 class="rc-picker-cell rc-picker-cell-in-view"
-                title="1990-09-30"
+                title="9/30/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10297,7 +10297,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-01"
+                title="10/1/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10307,7 +10307,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-02"
+                title="10/2/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10317,7 +10317,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-03"
+                title="10/3/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10327,7 +10327,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-04"
+                title="10/4/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10337,7 +10337,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-05"
+                title="10/5/1990"
               >
                 <div
                   class="rc-picker-cell-inner"
@@ -10347,7 +10347,7 @@ exports[`Picker.Panel should render correctly in rtl 1`] = `
               </td>
               <td
                 class="rc-picker-cell"
-                title="1990-10-06"
+                title="10/6/1990"
               >
                 <div
                   class="rc-picker-cell-inner"

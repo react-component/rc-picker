@@ -19,8 +19,8 @@ const locale: Locale = {
   yearSelect: 'Жил сонгох',
   decadeSelect: 'Арван сонгох',
 
-  dateFormat: 'YYYY/MM/DD',
-  dayFormat: 'DD',
+  fieldDateFormat: 'YYYY/MM/DD',
+  cellDateFormat: 'DD',
   dateTimeFormat: 'YYYY/MM/DD HH:mm:ss',
 
   previousMonth: 'Өмнөх сар (PageUp)',

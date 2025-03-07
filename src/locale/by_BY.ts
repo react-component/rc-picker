@@ -19,7 +19,7 @@ const locale: Locale = {
   yearSelect: 'Выбраць год',
   decadeSelect: 'Выбраць дзесяцігоддзе',
 
-  dateFormat: 'D-M-YYYY',
+  fieldDateFormat: 'D-M-YYYY',
 
   dateTimeFormat: 'D-M-YYYY HH:mm:ss',
 

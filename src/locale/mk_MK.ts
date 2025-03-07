@@ -18,7 +18,7 @@ const locale: Locale = {
   yearSelect: 'Избери година',
   decadeSelect: 'Избери деценија',
 
-  dateFormat: 'D.M.YYYY',
+  fieldDateFormat: 'D.M.YYYY',
 
   dateTimeFormat: 'D.M.YYYY HH:mm:ss',
 

@@ -38,16 +38,16 @@ describe('Picker.Keyboard', () => {
     // type date
     fireEvent.change(inputEle, {
       target: {
-        value: '2000-03-03',
+        value: '3/8/2000',
       },
     });
-    expect(onCalendarChange).toHaveBeenCalledWith(expect.anything(), '2000-03-03', {});
+    expect(onCalendarChange).toHaveBeenCalledWith(expect.anything(), '3/8/2000', {});
 
     // Submit
     fireEvent.keyDown(inputEle, {
       key: 'Enter',
     });
-    expect(onChange).toHaveBeenCalledWith(expect.anything(), '2000-03-03');
+    expect(onChange).toHaveBeenCalledWith(expect.anything(), '3/8/2000');
   });
 
   it('warning for legacy preventDefault', () => {

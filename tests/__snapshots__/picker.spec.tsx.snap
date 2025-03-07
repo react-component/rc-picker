@@ -8,7 +8,7 @@ exports[`Picker.Basic icon 1`] = `
     aria-invalid="false"
     autocomplete="off"
     size="12"
-    value="1990-09-03"
+    value="9/3/1990"
   />
   <span
     class="rc-picker-suffix"

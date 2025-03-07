@@ -19,7 +19,7 @@ const locale: Locale = {
   yearSelect: 'წლის არჩევა',
   decadeSelect: 'ათწლეულის არჩევა',
 
-  dateFormat: 'M/D/YYYY',
+  fieldDateFormat: 'M/D/YYYY',
 
   dateTimeFormat: 'M/D/YYYY HH:mm:ss',
 

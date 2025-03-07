@@ -4,6 +4,7 @@ import * as React from 'react';
 import type { SelectorProps } from '../../../interface';
 import { formatValue } from '../../../utils/dateUtil';
 import type { InputProps } from '../Input';
+import { toArray } from '../../../utils/miscUtil';
 
 export default function useInputProps<DateType extends object = any>(
   props: Pick<
@@ -128,7 +129,7 @@ export default function useInputProps<DateType extends object = any>(
   // ======================== Input =========================
   const getInputProps = (index?: number): InputProps => {
     function getProp<T>(propValue: T | T[]): T {
-      return index !== undefined ? propValue[index] : propValue;
+      return toArray(propValue)[index || 0];
     }
 
     const pickedAttrs = pickAttrs(props, {

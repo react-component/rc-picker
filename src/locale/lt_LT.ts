@@ -19,8 +19,8 @@ const locale: Locale = {
   yearSelect: 'Pasirinkti metus',
   decadeSelect: 'Pasirinkti dešimtmetį',
 
-  dateFormat: 'YYYY-MM-DD',
-  dayFormat: 'DD',
+  fieldDateFormat: 'YYYY-MM-DD',
+  cellDateFormat: 'DD',
   dateTimeFormat: 'YYYY-MM-DD HH:MM:SS',
 
   previousMonth: 'Buvęs mėnesis (PageUp)',

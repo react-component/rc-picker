@@ -21,7 +21,7 @@ const locale: Locale = {
   yearSelect: 'ជ្រើសរើសឆ្នាំ',
   decadeSelect: 'ជ្រើសរើសអាយុ',
 
-  dateFormat: 'YYYY-M-D',
+  fieldDateFormat: 'YYYY-M-D',
   dateTimeFormat: 'YYYY-M-D HH:mm:ss',
   previousYear: 'ឆ្នាំមុន (Controlគ្រាប់ចុចបូកព្រួញខាងឆ្វេង)',
   nextYear: 'ឆ្នាំក្រោយ (Control គ្រាប់ចុចបូកព្រួញស្ដាំ)',
